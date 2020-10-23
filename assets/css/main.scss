@@ -62,6 +62,8 @@
     animation-name: fade;
     animation-direction: alternate;
     animation-iteration-count: infinite;
+    animation-fill-mode: forwards;  
+
   }
   
   @keyframes fade {
