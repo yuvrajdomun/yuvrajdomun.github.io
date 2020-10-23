@@ -4,7 +4,7 @@
 
 
 /*  Blinking text  */
-.wrapper {
+.blinkwrapper {
     padding: 10px;
     margin: 0 auto;
     width: 500px;
@@ -14,17 +14,17 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  .wrapper .item {
+  .blinkwrapper .item {
     visibility: hidden;
     display: none;
   }
-  .wrapper h2 {
+  .blinkwrapper h2 {
     font-size: 55px;
     margin: 0;
     color: #3a3a3a;
     text-align: left;
   }
-  .wrapper > div {
+  .blinkwrapper > div {
     min-height: 20px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -33,7 +33,7 @@
     font-weight: bold;
     color: orange;
   }
-  .wrapper > div:after {
+  .blinkwrapper > div:after {
     content: "";
     width: 10px;
     height: 4px;
