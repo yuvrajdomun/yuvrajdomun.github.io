@@ -94,11 +94,11 @@ analytics:
 # Site Author
 author:
   name             : "Yuvraj Domun"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           :  "/assets/images/profilepicture.jpg"
   bio              : "Data Scientist | Machine Learning Engineer | Strategic Thinker| Data Science Consultant @ Amey Strategic Consulting"
 "
   location         : "London"
-  email            : "+44 07399 481030"
+  email            : "+ 44 07399 481030"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
