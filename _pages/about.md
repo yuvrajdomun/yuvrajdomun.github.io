@@ -1,6 +1,6 @@
 ---
 title: "About"
-permaking: /about/
+permalink: /about/
 header:
     image: "/assets/images/bannger.jpg"
 ---
