@@ -1,6 +1,6 @@
 ---
 title: "Data Science posts by tags"
-layout: test
+layout: single
 permalink: /data-science/
 ---
 
