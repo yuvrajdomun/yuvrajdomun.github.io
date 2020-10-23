@@ -8,15 +8,15 @@ I am passionate about helping businesses through their digital transformation jo
 ## Experience
 ___
 ___
-> Algorithm Development: 
+> Algorithm Development
 
 I have led the development and cloud deployment (Azure Databricks and AzureML) of several Data Science solutions to help our clients solve problems such as anomaly detection, process automation, and process optimisation. • I am the lead data scientist for our in-house IoT platform. 
 
-> Data Science Solution Deployment: 
+> Data Science Solution Deployment
 
 Working in Agile teams, I have assisted in the development of Data Science solutions for our clients through dashboard development and automatic report scheduling. Data Science 
 
-> Strategy Realization:
+> Strategy Realization
 
 I am currently working as a data science consultant for a large governmentowned company to transform the organisation’s operation into one that operates with agility, and is more data-driven.  As part of the project, I have engaged with key stakeholders to understand business requirements and proposed innovative data analytics and science solutions. I lead and worked with multi-disciplinary to delivery several cloud-based data science solutions
 
