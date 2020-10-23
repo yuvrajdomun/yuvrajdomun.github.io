@@ -4,6 +4,11 @@ layout: archive
 
 {{ content }}
 
+<picture>
+  <source srcset="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/cc-1800.webp" type="image/webp" />
+  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/cc-1800.jpg" alt="Chris Coyier">
+</picture>
+
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
 {% if paginator %}
