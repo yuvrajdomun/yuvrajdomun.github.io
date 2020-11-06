@@ -31,15 +31,15 @@
     display: flex;
     align-items: flex-end;
     font-weight: bold;
-    color: orange;
+    color: rgb(31, 180, 93);
   }
   .blinkwrapper > div:after {
     content: "";
-    width: 10px;
+    width: 20px;
     height: 4px;
     display: block;
     background: black;
-    color: orange;
+    color: rgb(31, 180, 93);
     margin-bottom: 4px;
     margin-left: 2px;
     animation-duration: 350ms;

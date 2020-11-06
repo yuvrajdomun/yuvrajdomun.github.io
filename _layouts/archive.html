@@ -1,26 +1,105 @@
 ---
-layout: default
+layout: default_home
 ---
+		<!-- Banner -->
+  <section id="banner">
+    
+    <div class="inner" >
+      
+      <h1><a href="https://www.linkedin.com/in/yuvrajdomun/">Yuvraj Domun</a> </h1>
+      <p>A responsive business oriented template with a video background<br />
+      designed by  and released under the Creative Commons License.</p>
+    </div>
+    <video autoplay loop muted playsinline src="images/banner.mp4"></video>
+  </section>
 
-{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-  {% include page__hero.html %}
-{% elsif page.header.video.id and page.header.video.provider %}
-  {% include page__hero_video.html %}
-{% endif %}
+  
+  <body class="is-preload" ></body>
+      <div class="user-details" >
+          <h1> My Expertise </h1>
+          <p>  I am passionate about helping businesses through their digital transformation journey using Data Science. I am experienced in delivering ML solutions to solve academic and business problems, helping clients shape their digital strategy, and developing processes for the successful integration of Data Science in their day-to-day operations.</p>
+        </div>
+          <div class="user">
+            <div class="tech">
+              <h2>Data Science</h2>
+              <i class="devicon-javascript-plain colored"></i>
+              <i class="devicon-javascript-plain colored"></i>
+              <i class="devicon-javascript-plain colored"></i>
+              <i class="devicon-scala-plain colored"></i>
+              <i class="devicon-scala-plain colored"></i>
+              <i class="devicon-scala-plain colored"></i>
+              <i class="devicon-scala-plain colored"></i>
+              <i class="devicon-sass-original colored"></i>
+              <p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
+                Vinyl XOXO lumbersexual</p>
+            </div>
+            <div class="tech">
+              <h2> DataOps</h2>
+              <i class="devicon-javascript-plain colored"></i>
+              <i class="devicon-react-original-wordmark colored"></i>
+              <i class="devicon-nodejs-plain-wordmark"></i>
+              <p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
+                Vinyl XOXO lumbersexual</p>
+            </div>
+            <div class="tech">
+              <h2>Data Strategy</h2>
+              <i class="devicon-git-plain"></i>
+              <i class="devicon-gulp-plain colored"></i>
+              <i class="devicon-atom-original-wordmark"></i>
+              <p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
+                Vinyl XOXO lumbersexual</p>
+            </div>
+            
+        </div>
+        
+  <!-- Highlights -->
+  <body class="is-preload"></body>
+  <section class="wrapper">
+    <div class="inner">
 
-{% if page.url != "/" and site.breadcrumbs %}
-  {% unless paginator %}
-    {% include breadcrumbs.html %}
-  {% endunless %}
-{% endif %}
+      <div class="highlights">
 
-<div id="main" role="main">
-  {% include sidebar.html %}
+          {% if paginator %}
+            {% assign posts = paginator.posts %}
+          {% else %}
+            {% assign posts = site.posts %}
+          {% endif %}
 
-  <div class="archive">
-    {% unless page.header.overlay_color or page.header.overlay_image %}
-      <h1 id="page-title" class="page__title">{{ page.title }}</h1>
-    {% endunless %}
-    {{ content }}
-  </div>
-</div>
+          {% assign entries_layout = page.entries_layout | default: 'section' %}
+
+          {% for post in posts %}
+            <section>
+              <div class="content">
+                <header>
+                    {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+                    {% include page__hero.html %}
+                    {% elsif page.header.video.id and page.header.video.provider %}
+                      {% include page__hero_video.html %}
+                    {% endif %}
+                  {% include archive-single.html type=entries_layout %}
+                </header>
+              </div>
+            </section>
+          {% endfor %}
+
+          </div>
+      </div>
+    </div>
+  </section>
+ 
+
+<body>
+
+    <p>Before the script...</p>
+    <div id="tsparticlesw"></div>
+
+    <script 
+    type="text/javascript" src=/particle.js"
+    integrity="sha512-PYHWDEuXOTJ9MZ+/QHqkbgiEYZ+LImQv3i/9NyYOABFvK37e4q4Wg7aQDN1JpoGiEu1TYZh6JMrZluZox2gbDA=="
+    crossorigin="anonymous" </script>
+    ></script>
+
+    <script>
+        tsParticles.load('tsparticlesw');
+    </script>
+</body>
