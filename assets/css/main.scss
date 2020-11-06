@@ -11,9 +11,9 @@
 @import "lib/devicon";
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-$main: #1a222c;
-$sec: #4B5664;
-$purple: #54516A;
+$main: #000000;
+$sec:  rgb(7, 4, 26);
+$purple: rgb(7, 4, 26);
 $cut: 550px;
 
 #particles-js {
@@ -34,7 +34,7 @@ $cut: 550px;
 .header {
   z-index: 1;
   text-align: center;
-  color:#FFF;
+  color:rgb(206, 8, 8);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -45,7 +45,7 @@ $cut: 550px;
     font-size: 50px;
     display: block;
     line-height: 1;
-    color: #FFF;
+    color: rgb(206, 8, 8);
     @media only screen and (min-width:$cut){
       margin: 0;
       font-size: 100px;
@@ -233,7 +233,7 @@ html {
 #banner {
   -ms-flex-align: center;
   -ms-flex-pack: center;
-  background-color: #111111;
+  background-color: #f3f1f1;
   color: rgba(255, 255, 255, 0.5);
   -moz-align-items: center;
   -webkit-align-items: center;
@@ -382,7 +382,7 @@ html {
   #banner table.alt tbody tr td {
     border-color: rgba(255, 255, 255, 0.25); }
   #banner .highlights .content {
-    background: #111111;
+    background: #fbfbfb;
     box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025); }
   #banner .testimonials .content {
     background: #111111;
@@ -534,7 +534,8 @@ html {
   .highlights > :nth-child(3n) {
     width: calc(33.3333333333% + -0.5rem); }
   .highlights .content {
-    border-radius: 4px;
+    border-radius: 10px;
+    border-color: #e40101;
     height: 100%;
     padding: 3rem;
     text-align: center; }
@@ -625,12 +626,12 @@ html {
       width: calc(100% + 1rem); } }
 
 .highlights .content {
-  background: #424c5d;
-  box-shadow: 0px 0px 0px 1px rgb(5, 3, 0); }
+  background: #000000;
+  box-shadow: 0px 0px 0px 2px rgb(206, 207, 212); }
 
   #about {
     width: 90%;
-    background: #424c5d;
+    background: #010a1a;
     margin: 0 auto;
     max-width: 960px;
     @media only screen  {
@@ -677,7 +678,7 @@ html {
   @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 .body2 {
-    margin: 10;
+    margin: 11;
     padding: 10;
     font-size: 100%;
     line-height: 1.5;
