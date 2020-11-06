@@ -87,19 +87,16 @@ layout: default_home
     </div>
   </section>
  
+  <script> src = "particles.js"</script>
 
-<body>
+    <div id="wrapper">
 
-    <p>Before the script...</p>
-    <div id="tsparticlesw"></div>
-
-    <script 
-    type="text/javascript" src=particle.js"
-    integrity="sha512-PYHWDEuXOTJ9MZ+/QHqkbgiEYZ+LImQv3i/9NyYOABFvK37e4q4Wg7aQDN1JpoGiEu1TYZh6JMrZluZox2gbDA=="
-    crossorigin="anonymous" </script>
-    ></script>
+      <div id="particles-div"></div>
+      <button id="particle-button">start </button>
+    </div>
 
     <script>
-        tsParticles.load('tsparticlesw');
+      $("particle-button").click(function() {
+        particlesJS.load('particle-div','particle-cfg.json');
+      });
     </script>
-</body>
