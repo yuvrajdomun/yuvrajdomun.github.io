@@ -252,7 +252,7 @@ html {
   #banner strong, #banner b {
     color: #856b42; }
   #banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-    color: #ffffff; }
+    color: #e70c0c; }
   #banner blockquote {
     border-left-color: rgba(255, 255, 255, 0.25); }
   #banner code {
@@ -398,7 +398,7 @@ html {
     color: rgba(255, 255, 255, 0.5);
     text-decoration: none; }
     #banner a:hover {
-      color: #ffffff; }
+      color: $masthead-link-color-hover; }
 
 
 
@@ -537,12 +537,12 @@ html {
       width: calc(100% + 1rem); } }
 
 .highlights .content {
-  background: #000000;
-  box-shadow: 0px 0px 0px 2px rgb(206, 207, 212); }
+  background: $background-color;
+  box-shadow: 0px 0px 0px 2px $masthead-link-color-hover; }
 
   #about {
     width: 90%;
-    background: #010a1a;
+    background: #1f2833;
     margin: 0 auto;
     max-width: 960px;
     @media only screen  {
@@ -563,12 +563,13 @@ html {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    padding-left: 300px;
+    padding-left: 100px;
     padding-top: 00px;
     padding-right: 300px;
     padding-bottom: 00px;
     padding-top: 00px;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     p {
       font-size: 16px;
     }
@@ -734,7 +735,7 @@ canvas{
 #particles-js{
   -ms-flex-align: center;
   -ms-flex-pack: center;
-  background-color: #000000;
+  background-color: #0b0c10;
   color: rgba(255, 255, 255, 0.5);
   -moz-align-items: center;
   -webkit-align-items: center;
@@ -759,9 +760,21 @@ canvas{
   position: relative;
   text-align: center;
   width: 100%;
-  
+
 }
 #copyright {
   position: absolute;
   align-items: center;
+  color: $text-color;
 }
+
+.grid-container {
+  display: grid;
+  grid-gap: 20px;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 300px);
+
+
+
+}
+

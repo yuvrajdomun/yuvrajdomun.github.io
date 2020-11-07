@@ -61,10 +61,10 @@ $darker-gray: mix(#000, $gray, 60%) !default;
 $light-gray: mix(#fff, $gray, 50%) !default;
 $lighter-gray: mix(#fff, $gray, 90%) !default;
 
-$background-color: rgb(0, 0, 0) ;
+$background-color:#0b0c10 ;
 $code-background-color: #160202 !default;
 $code-background-color-dark: $light-gray !default;
-$text-color:#ced3d8;
+$text-color:#c5c6c7;
 $muted-text-color: mix(#fff, $text-color, 20%) !default;
 $border-color: $lighter-gray !default;
 $form-background-color: $lighter-gray !default;
@@ -115,7 +115,7 @@ $link-color: mix(#000, $info-color, 20%) !default;
 $link-color-hover: mix(#000, $link-color, 25%) !default;
 $link-color-visited: mix(#fff, $link-color, 15%) !default;
 $masthead-link-color: $primary-color !default;
-$masthead-link-color-hover: mix(rgb(255, 255, 255), $primary-color, 25%) ;
+$masthead-link-color-hover: #66fcf1 ;
 $navicon-link-color-hover: #ced3d8;
 
 /* syntax highlighting (base16) */
