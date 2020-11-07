@@ -694,10 +694,10 @@ canvas{
 /* ---- stats.js ---- */
 
 .count-particles{
-  background: #000022;
+  background: #f9f9ff;
   position: absolute;
   top: 48px;
-  left: 0;
+  left: 10;
   width: 10px;
   color: #13E8E9;
   font-size: .8em;
@@ -717,11 +717,13 @@ canvas{
 .count-particles{
   -webkit-user-select: none;
   margin-top: 5px;
+  position: absolute;
+
   margin-left: 5px;
 }
 
 #stats{
-  border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 1 0;
   overflow: hidden;
 }
 
