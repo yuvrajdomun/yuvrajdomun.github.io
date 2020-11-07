@@ -16,20 +16,6 @@ $sec:  rgb(7, 4, 26);
 $purple: rgb(7, 4, 26);
 $cut: 550px;
 
-#particles-js {
-  background: $main;
-  display: flex;
-  vertical-align: bottom;
-  width: 100%;
-  min-height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  .particles-js-canvas-el {
-    width:100% !important;
-    height:100vh !important;
-  }
-}
 
 .header {
   z-index: 1;
@@ -413,84 +399,9 @@ html {
     text-decoration: none; }
     #banner a:hover {
       color: #ffffff; }
-  #banner video {
-    -moz-transform: translateX(50%) translateY(50%);
-    -webkit-transform: translateX(50%) translateY(50%);
-    -ms-transform: translateX(50%) translateY(50%);
-    transform: translateX(50%) translateY(50%);
-    bottom: 50%;
-    height: auto;
-    min-height: 100%;
-    min-width: 100%;
-    overflow: hidden;
-    position: absolute;
-    right: 50%;
-    width: auto; }
-  #banner:before {
-    -moz-transition: opacity 3s ease;
-    -webkit-transition: opacity 3s ease;
-    -ms-transition: opacity 3s ease;
-    transition: opacity 3s ease;
-    -moz-transition-delay: 1.25s;
-    -webkit-transition-delay: 1.25s;
-    -ms-transition-delay: 1.25s;
-    transition-delay: 1.25s;
-    background: #111111;
-    content: '';
-    display: block;
-    height: 100%;
-    left: 0;
-    opacity: 0.45;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 1; }
-  #banner:after {
-    background: linear-gradient(135deg, #edecee 0%, #000000 74%);
-    content: ' ';
-    display: block;
-    height: 100%;
-    left: 0;
-    opacity: 0.6;
-    position: absolute;
-    top: 0;
-    webkit-linear-gradientidth: 100%;
-    width: 100%;
-    z-index: 1; }
-  #banner.small {
-    height: 300vh !important;
-    min-height: 30vh; }
-  @media screen and (max-width: 1280px) {
-    #banner video {
-      display: none; } }
-  @media screen and (max-width: 736px) {
-    #banner {
-      height: auto !important;
-      min-height: 0;
-      padding: 4rem 2rem 4rem 2rem; }
-      #banner .inner {
-        width: 100%; }
-      #banner h1 {
-        font-size: 1.75rem;
-        margin-bottom: 0.5rem;
-        padding-bottom: 0; }
-      #banner p {
-        font-size: 1.25rem; }
-      #banner br {
-        display: none; }
-      #banner .button {
-        width: 100%; } }
-  @media screen and (max-width: 480px) {
-    #banner p {
-      font-size: 1rem; } }
-  body.is-preload #banner .inner {
-    -moz-transform: scale(0.99);
-    -webkit-transform: scale(0.99);
-    -ms-transform: scale(0.99);
-    transform: scale(0.99);
-    opacity: 0; }
-  body.is-preload #banner:before {
-    opacity: 1; }
+
+
+
 
 /* Highlights */
 .highlights {
@@ -642,6 +553,7 @@ html {
   .tech {
     margin: 10px;
     padding:0px;
+    flex-wrap: wrap;
     font-size: 40px;
   }
   
@@ -650,7 +562,7 @@ html {
     font-size: 30px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding-left: 300px;
     padding-top: 00px;
     padding-right: 300px;
@@ -668,6 +580,7 @@ html {
   
   .user-details {
     text-align: center;
+    flex-wrap: nowrap;
     margin: 00px ;
     padding-left: 300px;
     padding-right: 300px;
@@ -692,4 +605,163 @@ html {
   width:800px;
   height:300px;
   background: #b4b6b9
+}
+
+
+
+ .anime-container {
+   position: relative;
+ }
+  
+ .anime-container .dot{
+   position: absolute;
+   /*draw particles as circles:*/
+   border-radius: 50%;
+   background-color: hsl(60, 100%, 80%);
+ }
+
+
+
+
+ #myContainer {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: yellow;
+}
+
+#myAnimation {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background: red;
+}
+
+
+
+
+#contentContainer {
+  width: 550px;
+  height: 350px;
+  border: 5px black solid;
+  overflow: hidden;
+  background-color: #DFF2FF;
+  display: flex;
+  align-items: center;
+}
+
+#circle {
+  width: 200px;
+  height: 200px;
+  background-color: #20A6FF;
+  border-radius: 50%;
+}
+
+#move {
+  background-color: gold;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 5px solid #333;
+  outline: none;
+}
+#move:hover {
+  background-color: coral;
+}
+#move:active {
+  background-color: yellowgreen;
+}
+
+
+
+
+
+/* =============================================================================
+   My CSS
+   ========================================================================== */
+
+/* ---- base ---- */
+
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+  
+}
+
+
+/* ---- stats.js ---- */
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 10px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  background-color: #000000;
+  color: rgba(255, 255, 255, 0.5);
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 0;
+  display: -ms-flexbox;
+  height: 30rem !important;
+  min-height: 10rem;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  
+}
+#copyright {
+  position: absolute;
+  align-items: center;
 }
