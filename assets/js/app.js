@@ -16,20 +16,20 @@ particlesJS('particles-js',
   {
     "particles": {
       "number": {
-        "value": 300,
+        "value": 150,
         "density": {
           "enable": true,
-          "value_area": 1736.2070190114673
+          "value_area": 1500
         }
       },
       "color": {
-        "value": "#ffffff"
+        "value": "#009dde"
       },
       "shape": {
         "type": "circle",
         "stroke": {
           "width": 0,
-          "color": "#000000"
+          "color": "#009dde"
         },
         "polygon": {
           "nb_sides": 5
@@ -63,7 +63,7 @@ particlesJS('particles-js',
       "line_linked": {
         "enable": true,
         "distance": 432.65070666282116,
-        "color": "#009dde",
+        "color": "#ffffff",
         "opacity": 0.2724097041951097,
         "width": 0
       },
@@ -87,7 +87,7 @@ particlesJS('particles-js',
       "events": {
         "onhover": {
           "enable": true,
-          "mode": "grab"
+          "mode": "repulse"
         },
         "onclick": {
           "enable": true,
@@ -111,7 +111,7 @@ particlesJS('particles-js',
         },
         "repulse": {
           "distance": 200,
-          "duration": 0.4
+          "duration": 0.2
         },
         "push": {
           "particles_nb": 4
@@ -123,14 +123,7 @@ particlesJS('particles-js',
     }
     ,
     "retina_detect": true,
-    "config_demo": {
-      "hide_card": false,
-      "background_color": "#b61924",
-      "background_image": "",
-      "background_position": "50% 50%",
-      "background_repeat": "no-repeat",
-      "background_size": "cover"
-    }
+   
   }
 
 );
