@@ -14,7 +14,7 @@ permalink: /tags/
 {% for post in posts %}
   {% if post.tags contains t %}
   <li>
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <a href="{{ post.url | relative_url }}" rel="permalink"></a>{{ post.title }}</a>
     <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
   </li>
   {% endif %}
