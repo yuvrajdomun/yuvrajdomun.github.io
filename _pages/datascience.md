@@ -1,7 +1,7 @@
 ---
 title: "Blogs"
 layout: single
-permalink: /data-science/
+permalink: /blogsabsolute_url`/
 ---
 
 
