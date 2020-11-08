@@ -40,7 +40,6 @@ Use
 
 End of Life
 
-![assets/images/ ](assets/images/Data_Lifecyle.svg)
 
 **Where are we as an organisation?**
 
@@ -96,12 +95,6 @@ So let's do it right! This starts with a good strategic plan. But where do we st
 
 [https://www.mckinsey.com/~/media/mckinsey/business functions/mckinsey analytics/our insights/achieving business impact with data/achieving-business-impact-with-data_final.ashx](https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20analytics/our%20insights/achieving%20business%20impact%20with%20data/achieving-business-impact-with-data_final.ashx)
 
-<img src="/assets/images/Data_Lifecyle.svg" alt="Kiwi standing on oval" style="background-color: white">
 
-<iframe src="/assets/images/Data_Lifecyle.svg">
-    <!-- fallback here (<img> referencing a PNG version of the graphic, for example) -->
-</iframe>
+<img src="/images/Data_Lifecyle.svg" alt="Kiwi standing on oval" style="background-color: white">
 
-<object type="image/svg+xml" data="assets/images/Data_Lifecyle.svg">
-    <!-- fallback here (<img> referencing a PNG version of the graphic, for example) -->
-</object>
