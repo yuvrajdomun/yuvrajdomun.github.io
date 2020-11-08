@@ -1,7 +1,7 @@
 ---
 title: "Blogs"
 layout: single
-permalink: /blogsabsolute_url`/
+permalink: /blogs/
 ---
 
 

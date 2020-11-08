@@ -404,6 +404,8 @@ html {
       animation: 
         typing 3.3s steps(30, end),
         blink-caret .7s step-end infinite;
+    font-weight: bold;
+
     }
   #banner a {
     color: rgba(255, 255, 255, 0.5);
@@ -817,7 +819,7 @@ canvas{
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: rgb(0, 255, 221) }
+  50% { border-color: rgb(224, 224, 224) }
 }
 @keyframes animated-cursor{
   from{border-bottom-color: rgba(0,255,0,.75);}
