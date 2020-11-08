@@ -26,22 +26,6 @@ What do we need to deliver data science at Scale.
 
 The first step to a good data strategy is to understand what is the process a unit of data needs to move through in order to be transformed to value.
 
-**The 7 steps of a data science life cycle are:**
-
-Capture
-
-Store
-
-Process
-
-Share
-
-Use
-
-End of Life
-
-
-**Where are we as an organisation?**
 
 We know the steps data needs to move through, the next step is building a realistic picture of where we are as an organisation. We focus on 5 key aspects:
 
@@ -56,10 +40,6 @@ We know the steps data needs to move through, the next step is building a realis
 The next step is understanding the gaps within our organisation. The way we do this gap analysis is by generating analytics initiative. These are initiative that has the potential to directly impact key metrics: KPIs, OCR, etc. Making a backward pass through the data lifecycle with each initiative with help identify key vulnerabilities. These vulnerabilities inform the strategic objectives: what we need to do as an organisation.
 
 
-
-[https://www.morganstanley.com/ideas/data-decade](https://www.morganstanley.com/ideas/data-decade)
-
-
 How do you make data science and analytics work for you? Well, it starts with a good data strategy. A good data strategy helps us understand the following:
 
 1. Where do we want to be?
@@ -68,33 +48,5 @@ How do you make data science and analytics work for you? Well, it starts with a 
 
 How do you make data science and analytics work for you? Well, it starts with a good data strategy. A good data strategy helps us understand the following:
 
-[Untitled](https://www.notion.so/0591e29df24e42be90d09b041eea2ccb)
 
 ---
-
-/
-
-**Where do we want to be?**
-
-
-
-## Why we need a Data Strategy?
-
-
-So let's do it right! This starts with a good strategic plan. But where do we start? Well, there are a few things we need to ask ourselves:
-
-[[https://public.tableau.com/vizql/v_202032009221700/javascripts/jquery-3.0.0.min.js](https://public.tableau.com/vizql/v_202032009221700/javascripts/jquery-3.0.0.min.js)](https://www.notion.so/https-public-tableau-com-vizql-v_202032009221700-javascripts-jquery-3-0-0-min-js-29c1a585b4384e119676fc68b2d371bf)
-
-1. What 
-2. The Steps to building a Data Strategy
-3. 
-4. Situational Awareness
-5. Identify Key analytics use case
-6. Gap Analysis against data Lifecyle
-
-
-[https://www.mckinsey.com/~/media/mckinsey/business functions/mckinsey analytics/our insights/achieving business impact with data/achieving-business-impact-with-data_final.ashx](https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20analytics/our%20insights/achieving%20business%20impact%20with%20data/achieving-business-impact-with-data_final.ashx)
-
-
-<img src="/images/Data_Lifecyle.svg" alt="Kiwi standing on oval" style="background-color: white">
-
