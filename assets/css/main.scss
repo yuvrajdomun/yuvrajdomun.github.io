@@ -173,7 +173,7 @@ canvas {
     animation-name: fade;
     animation-direction: alternate;
     animation-iteration-count: infinite;
-    animation-fill-mode: forwards;  
+    animation-fill-mode: forwards;
 
   }
   
@@ -395,7 +395,7 @@ html {
     
   #banner p {
     font-size: 1.5rem; 
-      color: #66fcf1;
+      color: $masthead-link-color-hover;
       overflow: hidden; /* Ensures the content is not revealed until the animation */
       border-right: .15em solid rgb(255, 254, 253); /* The typwriter cursor */
       white-space: nowrap; /* Keeps the content on a single line */
@@ -825,3 +825,6 @@ canvas{
   from{border-bottom-color: rgba(0,255,0,.75);}
   to{border-bottom-color: transparent;}
 }
+
+
+

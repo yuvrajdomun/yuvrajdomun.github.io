@@ -3,26 +3,22 @@ layout: default_home
 ---
 
 
-  <div class="count-particles">
-    <span class="js-count-particles">--</span> Nodes
-  </div>
-
 
   <section id="banner">
 
             <!-- count particles -->
 <!-- count particles -->
-   
-          
+
+
       <!-- particles.js container -->
 
       <div id="particles-js">
           <div id="copyright">
-            
-              <h1><a href="https://www.linkedin.com/in/yuvrajdomun/">Yuvraj Domun</a> </h1>
 
-            
-                <p>I want to help others turn data into information, and information into insight.</p>  
+              <h1><a href="https://www.linkedin.com/in/yuvrajdomun/">I'm Yuvraj Domun</a> </h1>
+
+
+                <p>I want to help others turn data into information, and information into insight.</p>
 
             </div>
       </div>
@@ -31,34 +27,23 @@ layout: default_home
       <script src="assets/js/particles.js"></script>
       <script src="assets/js/app.js"></script>
 
-      <!-- stats.js -->
-      <script src="assets/js/stats.js"></script>
-      <script>
-        var count_particles, stats, update;
-        stats = new Stats;
-        stats.setMode(0);
-        stats.domElement.style.position = 'absolute';
-        stats.domElement.style.left = '0px';
-        stats.domElement.style.top = '0px';
-        document.body.appendChild(stats.domElement);
-        count_particles = document.querySelector('.js-count-particles');
-        update = function() {
-          stats.begin();
-          stats.end();
-          if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-            count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-          }
-          requestAnimationFrame(update);
-        };
-        requestAnimationFrame(update);
-      </script>
+
 
   </section>
 
   <body class="is-preload" ></body>
       <div class="user-details" >
-          <h1> My Passion </h1>
-          <p>  I am passionate about helping businesses through their digital transformation journey using Data Science. I am experienced in delivering ML solutions to solve academic and business problems, helping clients shape their digital strategy, and developing processes for the successful integration of Data Science in their day-to-day operations.</p>
+
+          <h2> Welcome to my blog! </h2>
+          <p> "Build me a machine translation attention model using a di-directional short-term (LSTM) with an attention outputting to a stacked post-attention LSTM feeding to a softmax for predictions" said no CEO EVER! </p>
+          <p>
+            As a data scientist, I want to build a holistic view of data science, and understand what are all the components 
+            required to make data science Work. My personal blog is a space for me to capture and share my data science lessons. 
+
+            True to the journey taken by the 'IT' guy in Dan Roberts' <a href="https://www.wiley.com/en-us/Unleashing+the+Power+of+IT%3A+Bringing+People%2C+Business%2C+and+Technology+Together-p-9781118044506""> book</a>, where the focus
+            was on bringing people, process, technology together. I want to focus on bringing <b>Data Science</b> (Technology), <b>Data & Operations</b> (People), <b>Data Strategy</b> (Process) together.
+
+          </p>
       </div>
       <div class="user">
         <div class="tech">
