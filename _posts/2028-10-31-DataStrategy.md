@@ -46,7 +46,4 @@ How do you make data science and analytics work for you? Well, it starts with a 
 2. Where are we now?
 3. How do we get there?
 
-How do you make data science and analytics work for you? Well, it starts with a good data strategy. A good data strategy helps us understand the following:
-
-
 ---
