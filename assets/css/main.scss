@@ -563,12 +563,7 @@ html {
     }
   }
   
-  .tech {
-    margin: 10px;
-    padding:0px;
-    flex-wrap: wrap;
-    font-size: 40px;
-  }
+
   
   .user {
     text-align: center;
@@ -589,6 +584,17 @@ html {
     @media only screen  {
       flex-wrap: nowrap;
       font-size: 75px;
+    }
+  }
+  .tech {
+    margin: 10px;
+    padding:0px;
+    min-width: 280px;
+    max-width: 600px;
+    flex: 1;
+    font-size: 40px;
+    p {
+      font-size: 20px;
     }
   }
   
