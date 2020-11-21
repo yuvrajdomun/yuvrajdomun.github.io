@@ -419,7 +419,6 @@ html {
 /* Highlights */
 .highlights {
   width: 100%;
-  margin: 300rem 3;
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
@@ -550,9 +549,7 @@ html {
       width: calc(100% + 1rem); } }
 
 .highlights .content {
-  background: $background-color;
   box-shadow: 0px 0px 0px 2px $masthead-link-color-hover; }
-
   #about {
     width: 90%;
     background: #1f2833;
@@ -569,14 +566,14 @@ html {
     text-align: center;
     font-size:5vw;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     padding-left: 100px;
-    padding-top: 100px;
+    padding-top: 1%;
     padding-right: 100px;
-    padding-bottom: 100px;
-    justify-content: center;
-    align-items: top;
+    padding-bottom: 1%;
+    justify-content: left;
+    align-items: center;
     p {
       font-size: 16px;
     }
@@ -586,31 +583,28 @@ html {
     }
   }
   .tech {
-    margin: 15px;
-    padding:50px;
-    min-width: 280px;
-    max-width: 700px;
-    box-shadow: 0px 0px 0px 2px $masthead-link-color-hover; 
-    background: rgb(2, 21, 37);
-    flex: 1;
-    font-size:2vw;
+    min-width: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    justify-content: left;
+    align-items: center;
+    font-size: 50px;
     p {
-      font-size: 22px;
+      font-size:30px;
     }
   }
   
   .user-details {
-    text-align: center;
-    flex-direction: row;
+    text-align: left;
+    flex-direction: column;
     flex-wrap: nowrap;
-    padding-left: 100px;
-    padding-top: 100px;
-    padding-right: 100px;
-    padding-bottom: 100px;
+    padding-left:10%;
+    padding-right: 10%;
     justify-content: center;
-    align-items: top;
+    align-items: center;
     p {
-      font-size:1.5vw;
+      font-size:30px;
     }
     h2 {
       font-size: 2vw;
@@ -621,6 +615,7 @@ html {
   }
 
   @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 
 .body2 {
     margin: 11;
@@ -818,7 +813,6 @@ canvas{
 
 
 
-
 /* DEMO-SPECIFIC STYLES */
 .typewriter h1 {
   color: rgb(129, 153, 22);
@@ -849,5 +843,48 @@ canvas{
   to{border-bottom-color: transparent;}
 }
 
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
 
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
 
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side */
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
