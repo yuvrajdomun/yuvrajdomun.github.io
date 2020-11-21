@@ -584,9 +584,9 @@ html {
   }
   .tech {
     min-width: 300px;
-    padding-left: 100px;
-    padding-right: 100px;
     text-align: center;
+    padding-left:10%;
+    padding-right: 10%;
     justify-content: left;
     align-items: center;
     font-size: 50px;
@@ -607,7 +607,7 @@ html {
       font-size:30px;
     }
     h2 {
-      font-size: 2vw;
+      font-size: 50px;
     }
     @media only screen  {
       flex-wrap: nowrap;
