@@ -568,9 +568,9 @@ html {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    padding-left: 100px;
+    padding-left: 10%;
     padding-top: 1%;
-    padding-right: 100px;
+    padding-right: 10%x;
     padding-bottom: 1%;
     justify-content: left;
     align-items: center;
@@ -585,8 +585,6 @@ html {
   .tech {
     min-width: 300px;
     text-align: center;
-    padding-left:10%;
-    padding-right: 10%;
     justify-content: left;
     align-items: center;
     font-size: 50px;
