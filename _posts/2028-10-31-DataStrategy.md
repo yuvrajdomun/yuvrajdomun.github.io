@@ -10,7 +10,7 @@ img : "assets/images/profilepicture.jpg"
 
 
 
-# A Data Strategy: Making Data a first class citizen
+# A Data Strategy: Making Data a first-class citizen
 
 Data strategy talks about the importance of Data Strategy. And list a generic framework that can be used to develop and implement a good data strategy.
 
@@ -22,7 +22,7 @@ Data scientist often needs to have access to a multitude of production data sets
 
 However, paradigm shift means a long and expensive change management program. And the reality is many organisations have a limited budget.  A good strategy makes organisations proactive, identify key problems to fix, and inform on actions to make for future opportunity.
 
-What do we need to deliver data science at Scale.
+What do we need to deliver data science at Scale?
 
 The first step to a good data strategy is to understand what is the process a unit of data needs to move through in order to be transformed to value.
 
@@ -35,9 +35,9 @@ We know the steps data needs to move through, the next step is building a realis
 4. The technology
 5. The data asset
 
-**What do we need to do.**
+**What do we need to do?**
 
-The next step is understanding the gaps within our organisation. The way we do this gap analysis is by generating analytics initiative. These are initiative that has the potential to directly impact key metrics: KPIs, OCR, etc. Making a backward pass through the data lifecycle with each initiative with help identify key vulnerabilities. These vulnerabilities inform the strategic objectives: what we need to do as an organisation.
+The next step is understanding the gaps within our organisation. The way we do this gap analysis is by generating analytics initiative. These are initiative that has the potential to directly impact key metrics: KPIs, OCR, etc. Making a backward pass through the data lifecycle with each initiative to help identify key vulnerabilities. These vulnerabilities inform the strategic objectives: what we need to do as an organisation.
 
 
 How do you make data science and analytics work for you? Well, it starts with a good data strategy. A good data strategy helps us understand the following:
