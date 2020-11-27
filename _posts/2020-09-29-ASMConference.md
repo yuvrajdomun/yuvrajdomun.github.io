@@ -1,5 +1,5 @@
 ---
-title: 'Leading the charge as Artificial Intelligence (AI) transforms asset management'
+title: 'Leading the charge as Artificial Intelligence (A.I.) transforms asset management'
 date: 2020-11-20
 tags: [DataOps]
 excerpt: "85% of Big Data projects fails: How do we minimise the risk?"
