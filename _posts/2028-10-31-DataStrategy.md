@@ -1,7 +1,7 @@
 ---
 title: 'Data Science Strategy'
 date: 2020-10-23
-tags: [DataOps]
+tags: [Data Strategy]
 excerpt: "
 Data scientist often needs to have access to a multitude of production data sets to be able to build systems that can churn valuable insights from data. Many organisation still uses last century's technology and a code-first approach: hence why data scientist are often stuck in long, painful waterfall processes. A paradigm shift is required for an organisation to be able to deal with the volume, variety, veracity and velocity of data. The multitude of analytical approaches and diversity of use cases require much more flexible and agile use of data."
 img : "assets/images/profilepicture.jpg"
