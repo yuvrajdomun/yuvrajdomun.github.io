@@ -10,5 +10,5 @@ where I shared the lessons I learned from past projects and what my current team
 
 1. People: Are we fostering a culture of collaboration and encouraging diversity?
 2. Technology: Are we embracing change and innovating?
-3. Business: Are we clear on the business problems we are solving and the value we are unlocking.
+3. Business: Are we clear on the business problems we are solving and the value we are unlocking?
 
