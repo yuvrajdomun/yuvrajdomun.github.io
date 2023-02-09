@@ -22,10 +22,7 @@ This is why a paradigm shift is necessary for organizations to keep pace with th
 
 For example, consider the process of building a predictive maintenance system. A data scientist would need access to data such as asset condition, historical work orders, employee schedules, etc. Without the right technology and processes in place, accessing and combining these data sets can be a time-consuming and challenging task. A code-first approach could take several weeks or even months of planning and stakeholder engagement to acquire and merge the necessary data.
 
-What do we need to deliver data science at Scale?
-
-The first step to a good data strategy is to understand what is the process a unit of data needs to move through in order to be transformed to value.
-
+**What do we need to deliver data science at Scale?**
 
 We know the steps data needs to move through, the next step is building a realistic picture of where we are as an organisation. We focus on 5 key aspects:
 
@@ -59,6 +56,7 @@ To reach its goals, an organization must understand its current state, where it 
 By answering these questions, organizations can develop a roadmap for achieving their goals, with a focus on making data a core asset for the organization.
 
 **Conclusion**
+
 A well-crafted data science strategy is crucial for organizations to stay competitive and extract valuable insights from their data. By embracing data as a first-class citizen, organizations can unlock its full potential and achieve their goals.
 
 ---
